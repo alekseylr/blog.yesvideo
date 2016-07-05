@@ -1,0 +1,144 @@
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP1 START @ 08:18:29
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+VERSION:	1.1.12
+PHP:		5.5.15 | SAPI: apache2handler
+SERVER:		Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15
+DOC ROOT:	D:/frontend/YesVideo/WP
+DOC ROOT 755:	true
+LOG FILE 644:	true
+BUILD NAME:	20160705_legacyrepublicblog_577bf86683db76379160705181150
+REQUEST URL:	http://blog.legacyrepublic.com/installer.php
+
+********************************************************************************
+ARCHIVE SETUP
+********************************************************************************
+NAME:	20160705_legacyrepublicblog_577bf86683db76379160705181150_archive.zip
+SIZE:	18.35MB
+ZIP:	Enabled (ZipArchive Support)
+EXTRACTING
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3722
+    [filename] => D:\frontend\YesVideo\WP\20160705_legacyrepublicblog_577bf86683db76379160705181150_archive.zip
+    [comment] => 
+)
+COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to .orig
+- Reset of .htaccess/web.config files
+
+UPDATED FILES:
+- SQL FILE:  'D:/frontend/YesVideo/WP/installer-data.sql'
+- WP-CONFIG: 'D:/frontend/YesVideo/WP/wp-config.php'
+
+ARCHIVE RUNTIME: 7.3673 sec.
+
+
+********************************************************************************
+DATABASE-ROUTINES
+********************************************************************************
+--------------------------------------
+SERVER ENVIROMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.20 -- Build Server: 5.5.42
+TIMEOUT:	5000
+MAXPACK:	1048576
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+DROP TABLE:	removed (0) tables
+QUERIES RAN:	330
+
+wp_zycq_commentmeta: (0)
+wp_zycq_comments: (1)
+wp_zycq_duplicator_packages: (1)
+wp_zycq_links: (0)
+wp_zycq_options: (235)
+wp_zycq_postmeta: (12)
+wp_zycq_posts: (7)
+wp_zycq_term_relationships: (1)
+wp_zycq_term_taxonomy: (1)
+wp_zycq_termmeta: (0)
+wp_zycq_terms: (1)
+wp_zycq_usermeta: (53)
+wp_zycq_users: (3)
+Removed '64' cache/transient rows
+
+SECTION RUNTIME: 1.0464 sec.
+
+********************************************************************************
+STEP1 COMPLETE @ 08:18:37 - TOTAL RUNTIME: 8.4708 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP2 START @ 08:19:14
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 utf8 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_zycq_commentmeta^ (0)
+wp_zycq_comments~ (1)
+wp_zycq_duplicator_packages^ (0)
+wp_zycq_links^ (0)
+wp_zycq_options~ (169)
+wp_zycq_postmeta~ (12)
+wp_zycq_posts~ (7)
+wp_zycq_term_relationships~ (1)
+wp_zycq_term_taxonomy~ (1)
+wp_zycq_termmeta^ (0)
+wp_zycq_terms~ (1)
+wp_zycq_usermeta~ (53)
+wp_zycq_users~ (3)
+--------------------------------------
+Search1:	'http://blog.legacyrepublic.com' 
+Change1:	'http://blog.legacyrepublic.com' 
+Search2:	'/home2/yesvideo/public_html/bloglegacyrepublic/' 
+Change2:	'D:/frontend/YesVideo/WP/' 
+Search3:	'http:\/\/blog.legacyrepublic.com' 
+Change3:	'http:\/\/blog.legacyrepublic.com' 
+Search4:	'\/home2\/yesvideo\/public_html\/bloglegacyrepublic\/' 
+Change4:	'D:\/frontend\/YesVideo\/WP\/' 
+Search5:	'%2Fhome2%2Fyesvideo%2Fpublic_html%2Fbloglegacyrepublic%2F' 
+Change5:	'D%3A%2Ffrontend%2FYesVideo%2FWP%2F' 
+Search6:	'http%3A%2F%2Fblog.legacyrepublic.com' 
+Change6:	'http%3A%2F%2Fblog.legacyrepublic.com' 
+Search7:	'\home2\yesvideo\public_html\bloglegacyrepublic' 
+Change7:	'D:/frontend/YesVideo/WP' 
+SCANNED:	Tables:13 	|	 Rows:248 	|	 Cells:1155 
+UPDATED:	Tables:1 	|	 Rows:2 	|	 Cells:2 
+ERRORS:		0 
+RUNTIME:	0.125500 sec
+
+********************************************************************************
+START FINAL CLEANUP: 08:19:15
+********************************************************************************
+UPDATE `wp_zycq_blogs` SET domain = 'blog.legacyrepublic.com' WHERE domain = 'blog.legacyrepublic.com'
+
+--------------------------------------
+NOTICES
+--------------------------------------
+No Notices Found
+
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 08:19:15 - TOTAL RUNTIME: 0.1360 sec.
+********************************************************************************
