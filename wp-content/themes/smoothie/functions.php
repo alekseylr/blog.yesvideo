@@ -30,6 +30,9 @@ function cr_scripts_styles() {
     
     //Custom Scroll CSS
 	wp_enqueue_style( 'custom_scroll_css', get_template_directory_uri() . "/includes/js/scrollbar/mCustomScrollbar.css");
+
+	//Custom user CSS
+	wp_enqueue_style( 'main_css', get_template_directory_uri() . "/main.css", array(), '0.1', 'screen' );
     
     //FontAwesome
 	wp_enqueue_style('font-awesome', get_stylesheet_directory_uri().'/includes/fontawesome/font-awesome.css');

@@ -1,6 +1,7 @@
 				</div><!-- main -->
-
-			<div id="footer" class="clearfix">
+			</div>
+			<div>
+			<div id="footer">
 				<div class="footer-inner">
 						<?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('Footer Column 1') && dynamic_sidebar('Footer Column 2') && dynamic_sidebar('Footer Column 3') && dynamic_sidebar('Footer Column 4')) : else : ?>		
 						<?php endif; ?>
@@ -13,6 +14,7 @@
                     <?php } ?>
 				</div>
             </div><!--footer-->
+            </div>
         </div><!-- wrapper -->
     </div><!--backgrimage-->
 	<!-- google analytics code -->
