@@ -1,19 +1,34 @@
 				</div><!-- main -->
 			</div>
 			<div>
-			<div id="footer">
-				<div class="footer-inner">
-						<?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('Footer Column 1') && dynamic_sidebar('Footer Column 2') && dynamic_sidebar('Footer Column 3') && dynamic_sidebar('Footer Column 4')) : else : ?>		
-						<?php endif; ?>
-					
-					<div class="clear"></div>
-                    <?php if ( of_get_option('of_copyright') == true) { ?>
-                    <p class="copyright"><?php echo of_get_option('of_copyright', 'no entry' ); ?></p>
-                    <?php } else {?>
-					<p class="copyright">&copy; <?php echo date("Y"); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a> | <?php bloginfo('description'); ?></p>
-                    <?php } ?>
+            <div id="footer">
+				<div class="container">
+					<div class="col">
+						<address>
+							<i class="lricon-phone"></i>
+							(877) 493-7383
+						</address>
+						<address>
+							<i class="lricon-email"></i>
+							support@legacyrepublic.com
+						</address>
+					</div>
+					<div class="col">
+						<div class="social">
+							<a class="socialicon lricon-youtube" href="https://www.youtube.com/user/LegacyRepublic" target="_blank">YouTube</a>
+							<a class="socialicon lricon-instagram" href="https://instagram.com/LegacyRepublic" target="_blank">Instagram</a>
+							<a class="socialicon lricon-pinterest" href="https://www.pinterest.com/legacyr" target="_blank">Pinterest</a>
+							<a class="socialicon lricon-twitter" href="https://twitter.com/LegacyRepublic" target="_blank">Twitter</a>
+							<a class="socialicon lricon-facebook" href="https://www.facebook.com/LegacyRepub" target="_blank">Facebook</a>
+							<div class="connect">Connect with us!</div>
+						</div>
+						<div class="copyright">
+							Copyright &copy;<?php echo date("Y"); ?> Legacy Republic of YesVideo. All Rights Reserved.
+						</div>
+					</div>
 				</div>
-            </div><!--footer-->
+			</div>
+            
             </div>
         </div><!-- wrapper -->
     </div><!--backgrimage-->

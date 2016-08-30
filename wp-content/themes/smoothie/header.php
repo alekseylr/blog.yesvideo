@@ -43,6 +43,9 @@
         </header>
         <div id="leftsidebar">
             <div class="leftsidebar-inner">
+                <div class="menu-wrap">
+                    <?php wp_nav_menu(array('theme_location' => 'main', 'container' => 'nav', 'menu_class' => 'main-nav')); ?>    
+                </div>
                 
                 <!-- <div class="logo-wrap">
                     <?php /*if ( of_get_option('of_logo') ) {*/ ?>
